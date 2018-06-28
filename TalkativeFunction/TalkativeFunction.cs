@@ -53,7 +53,6 @@ namespace TalkativeFunction
                 }
             }
         }
-
     }
 
     internal class ModelHelper
