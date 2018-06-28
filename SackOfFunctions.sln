@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShakehandFunction", "SackOfFunctions\ShakehandFunction.csproj", "{45E9399B-E9C5-40E6-B4AE-815949548A55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkativeFunction", "TalkativeFunction\TalkativeFunction.csproj", "{0107FFFC-6C5C-400C-9B1C-CEC09E76368A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{45E9399B-E9C5-40E6-B4AE-815949548A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45E9399B-E9C5-40E6-B4AE-815949548A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45E9399B-E9C5-40E6-B4AE-815949548A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0107FFFC-6C5C-400C-9B1C-CEC09E76368A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0107FFFC-6C5C-400C-9B1C-CEC09E76368A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0107FFFC-6C5C-400C-9B1C-CEC09E76368A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0107FFFC-6C5C-400C-9B1C-CEC09E76368A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
