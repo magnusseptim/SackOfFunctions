@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShakehandFunction", "SackOf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TalkativeFunction", "TalkativeFunction\TalkativeFunction.csproj", "{0107FFFC-6C5C-400C-9B1C-CEC09E76368A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriggeredSemaphore", "TriggeredSemaphore\TriggeredSemaphore.csproj", "{0EF51BF3-D743-44FD-AC8F-0140106F5808}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriggeredSemaphore", "TriggeredSemaphore\TriggeredSemaphore.csproj", "{0EF51BF3-D743-44FD-AC8F-0140106F5808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentlyCheckingFunction", "FluentlyCheckingFunction\FluentlyCheckingFunction.csproj", "{74814C94-CBE6-4F84-A2EA-4026B5950385}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0EF51BF3-D743-44FD-AC8F-0140106F5808}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EF51BF3-D743-44FD-AC8F-0140106F5808}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EF51BF3-D743-44FD-AC8F-0140106F5808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74814C94-CBE6-4F84-A2EA-4026B5950385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74814C94-CBE6-4F84-A2EA-4026B5950385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74814C94-CBE6-4F84-A2EA-4026B5950385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74814C94-CBE6-4F84-A2EA-4026B5950385}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
