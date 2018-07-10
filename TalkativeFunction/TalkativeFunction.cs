@@ -16,7 +16,7 @@ namespace TalkativeFunction
     public static class TalkativeFunction
     {
         [FunctionName("TalkativeFunction")]
-        public static Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)]HttpRequest req, TraceWriter log)
+        public static IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)]HttpRequest req, TraceWriter log)
         {
             IActionResult result;
             try
