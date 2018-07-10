@@ -12,3 +12,12 @@ A sack of different (sometimes crazy) Azure Functions
 
 ## FluentlyCheckingFunction
   FluentAssertion and FluentValidation together as validation middleware function
+
+## IrisExMachina
+  Example how could look ML Azure Function (with some of FluentValidation + FluentAssertion) by adapting ML example from 
+  https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet/get-started/windows
+
+## IrisExLibbStd
+  .dll for IrisExMachina
+
+
