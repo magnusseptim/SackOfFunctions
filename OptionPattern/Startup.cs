@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using System.Text;
+
 
 [assembly: FunctionsStartup(typeof(OptionPattern.Startup))]
 
@@ -18,9 +18,12 @@ namespace OptionPattern
     {
         public override void Configure(IFunctionsHostBuilder builder)
         {
-            var configBuilder = new ConfigurationBuilder()
+            var config = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("local.settings.json", optional: false); // Just for test purpose
+                .AddJsonFile("settings.json", optional: false)
+                .Build(); // Just for test purpose
+
+            builder.Services.Configure<BasicOptions>(con => config.GetSection("BasicOptions").Bind(con));
 
             builder.Services.AddAutoMapper(Assembly.GetAssembly(this.GetType()));
         }

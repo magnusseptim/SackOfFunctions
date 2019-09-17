@@ -1,0 +1,10 @@
+{
+  "BasicOptions": {
+    "FunctionName": "Option Pattern",
+    "Version": 2,
+    "Enviroment": {
+      "Name": "Stage",
+      "Standalone": false
+    }
+  }
+}
