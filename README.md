@@ -19,5 +19,7 @@ A sack of different (sometimes crazy) Azure Functions
 
 ## IrisExLibbStd
   .dll for IrisExMachina
-
+ 
+## OptionPattern
+  IOptionsMonitor usage with simple AutoMapper reduce mapping
 
