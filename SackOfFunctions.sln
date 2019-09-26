@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrisExMachina", "IrisExMach
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrisExLibbStd", "IrisExLibbStd\IrisExLibbStd.csproj", "{46049ABB-8178-4E46-81A0-FFF68E5FA8A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionPattern", "OptionPattern\OptionPattern.csproj", "{897D6558-1BEC-4F64-BED4-43877CE57117}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionPattern", "OptionPattern\OptionPattern.csproj", "{897D6558-1BEC-4F64-BED4-43877CE57117}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AugmentedTable", "AugmentedTable\AugmentedTable\AugmentedTable.csproj", "{A9430A99-CBC5-4BC4-B1F0-7EF162CDFD1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,14 @@ Global
 		{897D6558-1BEC-4F64-BED4-43877CE57117}.Release|Any CPU.Build.0 = Release|Any CPU
 		{897D6558-1BEC-4F64-BED4-43877CE57117}.Release|x64.ActiveCfg = Release|Any CPU
 		{897D6558-1BEC-4F64-BED4-43877CE57117}.Release|x64.Build.0 = Release|Any CPU
+		{A9430A99-CBC5-4BC4-B1F0-7EF162CDFD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9430A99-CBC5-4BC4-B1F0-7EF162CDFD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9430A99-CBC5-4BC4-B1F0-7EF162CDFD1A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A9430A99-CBC5-4BC4-B1F0-7EF162CDFD1A}.Debug|x64.Build.0 = Debug|Any CPU
+		{A9430A99-CBC5-4BC4-B1F0-7EF162CDFD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9430A99-CBC5-4BC4-B1F0-7EF162CDFD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9430A99-CBC5-4BC4-B1F0-7EF162CDFD1A}.Release|x64.ActiveCfg = Release|Any CPU
+		{A9430A99-CBC5-4BC4-B1F0-7EF162CDFD1A}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
