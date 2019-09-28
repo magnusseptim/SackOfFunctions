@@ -13,6 +13,7 @@ using Microsoft.Azure;
 using System.Text;
 using System.Collections.Generic;
 using AugmentedTable.Model;
+using Newtonsoft.Json;
 
 namespace AugmentedTable
 {
@@ -59,17 +60,17 @@ namespace AugmentedTable
                 foreach (var item in samples)
                 {
                     HubItem hItem = new HubItem();
-                    using (Stream data = new MemoryStream())
-                    {
-                        var blockBlob = blobContainer.GetBlockBlobReference(item.Id);
-                        await blockBlob.UploadFromStreamAsync(data);
-                        hItem.BlobUri = blockBlob.Uri.ToString();
-                    }
+                    var blockBlob = blobContainer.GetBlockBlobReference(item.Id);
+                    await blockBlob.UploadTextAsync(JsonConvert.SerializeObject(item));
+                    hItem.BlobUri = blockBlob.Uri.ToString();
 
                     var insertData = TableOperation.Insert(hItem);
                     await table.CreateIfNotExistsAsync();
                     results.Add(await table.ExecuteAsync(insertData));
                 }
+
+                // Protip : Remove your message from queue, Azure Queue will not do this for you automatically
+                await queue.DeleteMessageAsync(message);
 
                 return new OkObjectResult(results);
             }
